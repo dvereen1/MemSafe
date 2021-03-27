@@ -1,11 +1,11 @@
 <?php
     include_once("Classes/DBConnection.php");
-    include_once("Classes/FormValidator.php");
+    /*include_once("Classes/FormValidator.php");*/
 
     $conn = DBConnection::initialize("memSafe.ini");
-    $username ="";
+    /*$username ="";
     $memNote = "";
-    $secret = "";
+    $secret = "";*/
 
     //There is no sanitization of the memory note or secret prior to being stored in the database because there shouldn't be a limit on what a user's memory note can contain. All characters should be allowed.
     //Escaping certain characters happens prior to displaying the message back  to the user

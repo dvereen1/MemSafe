@@ -29,18 +29,13 @@ Store an encrypted "memory" note and supply a secret used to unlock the memory l
 
 ## Includes and Other Links
 
-In [memSafe.php](https://github.com/dvereen1/MemSafe/blob/main/memSafe.php), you'll notice some file includes and references which exist outside the current directory.
+Throughout this project, you'll notice some file includes and references which both exist outside the current directory and are used by other projects.
 
-```
-<?php include_once("headNoNav.php");?>
-<link rel = "stylesheet" href = "/CSS/allProjectsModal.css">
-<?php include_once("Classes/projectInfoModal.php");
-       createProjectModal("MemSafe", $projectModalArr);
-?>
+* [allProjectsModal.css](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/allProjectsModal.css)
+* [allProjectsModal.js](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/allProjectsModal.js)
+* [formValidator.js](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/formValidator.js)
+* [headNoNav.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/headNoNav.php)
+* [projectInfoModal.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/projectInforModal.php)
+* [DBConnection.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/DBConnection.php)
 
-...
-
-<script src = "/JS/allProjectsModal.js"></script>
-<script type = "text/javascript" src ="../JSClasses/formValidator.js"></script>
-```
 You can view these files at [PHP-JS-CSS-Includes](https://github.com/dvereen1/PHP-JS-CSS-Includes).
