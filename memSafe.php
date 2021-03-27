@@ -13,7 +13,7 @@
                 <nav>
                     <h4 id="logo">MemSafe</h4>
                     <ul id = "nav-menu">
-                        <li><a href = "https://github.com/dvereen1/MemSafe">Code</a></li>
+                        <li><a href = "https://github.com/dvereen1/MemSafe">View Code</a></li>
                         <li><a href="/#portfolio-">Portfolio</a></li>
                     </ul>
                     <div class = "bars-cont">
