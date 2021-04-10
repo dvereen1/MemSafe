@@ -1,6 +1,7 @@
 
         <?php include_once("headNoNav.php")?>
         <title>MemSafe</title>
+        <base href = "/portfolio/memSafe/">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;900&display=swap" rel="stylesheet">
         <link href = "memSafe.css" rel ="stylesheet">
         <link rel = "stylesheet" href = "/CSS/allProjectsModal.css">
@@ -11,7 +12,7 @@
         ?>
         <main class ="djv-container">
                 <nav>
-                    <h4 id="logo">MemSafe</h4>
+                    <h4 id="logo" ><a href = "/memSafe">MemSafe</a></h4>
                     <ul id = "nav-menu">
                         <li><a href = "https://github.com/dvereen1/MemSafe">View Code</a></li>
                         <li><a href="/#portfolio-">Portfolio</a></li>
@@ -34,7 +35,6 @@
                             We remember in case you don't
                         </h2>
                     </div>
-                  
                 </section>
                 <section class = "form-container">
                     <div class = "guide">

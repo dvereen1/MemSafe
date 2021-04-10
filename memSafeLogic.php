@@ -167,7 +167,7 @@
         }else{
             exit(json_encode("No key, nonce or secret exists"));
         }
-        $query = 'update memory set note  = ? where username = ?';
+        $query = 'update memory set note  = ?, uptime = now() where username = ?';
         $result = $dbconn->dbQuery($query, [$cypherMemory, $_SESSION["username"]]);
         if($result){
             exit(json_encode("remembered"));

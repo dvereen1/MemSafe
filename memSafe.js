@@ -103,7 +103,8 @@ rememBtn.addEventListener("click", function(){
                             break;
                         case 'valid secret':
                            // alert("Memory stored successfully");
-                           location.replace("memories/memories.php");
+                           /*location.replace("memories/memories.php");*/
+                           window.location.href = "/memSafe/memories";
                             break;
                     }
                     //no matter the error, clear the form after

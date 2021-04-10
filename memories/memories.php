@@ -1,12 +1,13 @@
 <?php 
     session_start();
     if(!isset($_SESSION["authorized"])){
-        header("location: ../memSafe.php");
+        header("location: /memSafe/memSafe");
         exit;
     }
     include_once("headNoNav.php");
 ?>
     <title>MemSafe</title>
+    <base href = "/portfolio/memSafe/memories/">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;900&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "memories.css">
 
@@ -14,7 +15,7 @@
     <body>
         <header>
             <nav>
-                <h4 id="logo">MemSafe</h4>
+                <h4 id="logo"><a href = "/memSafe/memories">MemSafe</a></h4>
                 <ul id = "nav-menu">
                     <li><a href = "#">Code</a></li>
                     <li><a href="/#portfolio-">Portfolio</a></li>
